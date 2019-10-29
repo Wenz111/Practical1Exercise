@@ -207,9 +207,131 @@ void drawPikachuFace() {
 	glColor3f(79.0 / 255.0f, 79.0 / 255.0f, 79.0 / 255.0f);
 	glVertex2f(-0.8f, -0.8f);
 	glVertex2f(0.8f, -0.8f);
-	glVertex2f(0.8f, 0.8f);
-	glVertex2f(-0.8f, 0.8f);
+	glVertex2f(0.8f, 1.0f);
+	glVertex2f(-0.8f, 1.0f);
 	glEnd();
+
+	// Write Pikachu
+	glBegin(GL_POLYGON);
+	// Write P
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(-0.7f, 0.5f);
+	glVertex2f(-0.6f, 0.5f);
+	glVertex2f(-0.6f, 0.9f);
+	glVertex2f(-0.7f, 0.9f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write P
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(-0.6f, 0.7f);
+	glVertex2f(-0.4f, 0.7f);
+	glVertex2f(-0.4f, 0.9f);
+	glVertex2f(-0.6f, 0.9f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write P
+	glColor3f(79.0 / 255.0f, 79.0 / 255.0f, 79.0 / 255.0f);
+	glVertex2f(-0.6f, 0.75f);
+	glVertex2f(-0.48f, 0.75f);
+	glVertex2f(-0.48f, 0.85f);
+	glVertex2f(-0.6f, 0.85f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write I
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(-0.25f, 0.5f);
+	glVertex2f(-0.15f, 0.5f);
+	glVertex2f(-0.15f, 0.9f);
+	glVertex2f(-0.25f, 0.9f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write I
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(-0.3f, 0.5f);
+	glVertex2f(-0.1f, 0.5f);
+	glVertex2f(-0.1f, 0.6f);
+	glVertex2f(-0.3f, 0.6f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write I
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(-0.3f, 0.8f);
+	glVertex2f(-0.1f, 0.8f);
+	glVertex2f(-0.1f, 0.9f);
+	glVertex2f(-0.3f, 0.9f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write K
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(0.0f, 0.5f);
+	glVertex2f(0.1f, 0.5f);
+	glVertex2f(0.1f, 0.9f);
+	glVertex2f(0.0f, 0.9f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write K
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(0.1f, 0.7f);
+	glVertex2f(0.1f, 0.8f);
+	glVertex2f(0.3f, 0.9f);
+	// Change below to glVertex2f(0.4f, 0.9f); for nice K style
+	glVertex2f(0.4f, 0.9f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write K
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(0.3f, 0.5f);
+	// Change below to glVertex2f(0.4f, 0.5f); for nice K style
+	glVertex2f(0.4f, 0.5f);
+	glVertex2f(0.1f, 0.7f);
+	glVertex2f(0.1f, 0.6f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write A
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(0.45f, 0.5f);
+	glVertex2f(0.55f, 0.5f);
+	glVertex2f(0.65f, 0.9f);
+	glVertex2f(0.55f, 0.9f);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	// Write A
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(0.75f, 0.5f);
+	glVertex2f(0.65f, 0.5f);
+	glVertex2f(0.55f, 0.9f);
+	glVertex2f(0.65f, 0.9f);
+	glEnd();
+
+	glBegin(GL_TRIANGLES);
+	// Write A
+	glColor3f(79.0 / 255.0f, 79.0 / 255.0f, 79.0 / 255.0f);
+	//glColor3f(255.0 / 255.0f, 255.0 / 255.0f, 255.0 / 255.0f);
+	glVertex2f(0.55f, 0.5f);
+	glVertex2f(0.6f, 0.8f);
+	glVertex2f(0.65f, 0.5f);
+	glEnd();
+
+	glLineWidth(5);
+	glBegin(GL_LINES);
+	// Write A
+	//glColor3f(79.0 / 255.0f, 79.0 / 255.0f, 79.0 / 255.0f);
+	//glColor3f(255.0 / 255.0f, 255.0 / 255.0f, 255.0 / 255.0f);
+	glColor3f(253.0 / 255.0f, 215.0 / 255.0f, 36.0 / 255.0f);
+	glVertex2f(0.5f, 0.63f);
+	glVertex2f(0.7f, 0.63f);
+	glEnd();
+	glLineWidth(1);
 
 	// Pikachu Round Face
 	float x1 = 0.0, y1 = -0.3, x2 = 0.0, y2 = 0.0;
@@ -531,50 +653,29 @@ void display()
 	//	OpenGL drawing
 	//--------------------------------
 
-	//switch (question)
-	//{
-	//case 1:
-	//	drawPahangFlag();
-	//	break;
-	//case 2:
-	//	drawNegeriSembilangFlag();
-	//	break;
-	//case 3:
-	//	drawEnglandFlag();
-	//	break;
-	//case 4:
-	//	drawScotlandFlag();
-	//	break;
-	//case 5:
-	//	drawJapanFlag();
-	//	break;
-	//case 6:
-	//	drawPikachuFace();
-	//	break;
-	//default:
-	//	break;
-	//}
-
-	glClearColor(1.0f, 228.0 / 255.0f, 204.0 / 255.0f, 0.9f);
-	glClear(GL_COLOR_BUFFER_BIT);
-
-	glBegin(GL_QUADS);
-	// Grey Box
-	glColor3f(79.0 / 255.0f, 79.0 / 255.0f, 79.0 / 255.0f);
-	glVertex2f(-0.8f, -0.8f);
-	glVertex2f(0.8f, -0.8f);
-	glVertex2f(0.8f, 0.8f);
-	glVertex2f(-0.8f, 0.8f);
-	glEnd();
-
-	glBegin(GL_QUADS);
-	// Write Pikachu
-	glColor3f(79.0 / 255.0f, 79.0 / 255.0f, 79.0 / 255.0f);
-	glVertex2f(-0.8f, -0.8f);
-	glVertex2f(0.8f, -0.8f);
-	glVertex2f(0.8f, 0.8f);
-	glVertex2f(-0.8f, 0.8f);
-	glEnd();
+	switch (question)
+	{
+	case 1:
+		drawPahangFlag();
+		break;
+	case 2:
+		drawNegeriSembilangFlag();
+		break;
+	case 3:
+		drawEnglandFlag();
+		break;
+	case 4:
+		drawScotlandFlag();
+		break;
+	case 5:
+		drawJapanFlag();
+		break;
+	case 6:
+		drawPikachuFace();
+		break;
+	default:
+		break;
+	}
 
 	//--------------------------------
 	//	End of OpenGL drawing
